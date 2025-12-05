@@ -31406,7 +31406,7 @@
               key: "onKonami",
               value: function () {
                 var t = new ua(),
-                  e = "/kiprotich-code.github.io/assets/images/king.png",
+                  e = "/assets/images/king.png",
                   n = t.load(e);
                 (n.wrapS = n.wrapT = 1e3), n.repeat.set(10, 10);
                 var i = t.load(e);
@@ -31738,7 +31738,7 @@
             new ru(this.renderer),
             new fu(this.renderer, !!s.getExtension("EXT_color_buffer_float"))
           ),
-          Ql.load(xu, "/kiprotich-code.github.io/assets/models/").then(this.onLoadComplete);
+          Ql.load(xu, "/assets/models/").then(this.onLoadComplete);
       }
       var e, n, i;
       return (
@@ -31859,7 +31859,7 @@
             value: function () {
               var t = this;
               (this.stayInside.material.map = new ua().load(
-                "/kiprotich-code.github.io/assets/images/inside.png"
+                "/assets/images/inside.png"
               )),
                 (this.motionPath = {
                   x: this.camera.position.x,
@@ -32343,7 +32343,7 @@
             e.$el.addEventListener("mouseover", e.onMouseOver),
             e.$el.addEventListener("mouseout", e.onMouseOut),
             (e.src =
-              "/kiprotich-code.github.io/assets/images/projects/" + e.$el.getAttribute("data-src")),
+              "/assets/images/projects/" + e.$el.getAttribute("data-src")),
             (e.color = e.$el.getAttribute("data-color") || "#ffffff"),
             (e.image = new Image()),
             (e.image.src = e.src)),
